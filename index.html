@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
-<body style="font-family: 'Noto Serif', serif;" class="max-w-[1150px] mx-auto">
+<body style="font-family: 'Noto Serif', serif;">
 
-  <header>
+  <header class="max-w-[500px] md:max-w-[1150px] mx-auto px-4">
     <section class="flex items-center justify-between py-4">
       <div>
         <figure>
@@ -37,7 +36,7 @@
     </section>
   </header>
 
-  <main>
+<main class="max-w-[500px] md:max-w-[1150px] mx-auto px-4">
  <div class="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-80 mt-10 md:mt-40">
   <div>
     <h1 class="text-4xl font-bold">
@@ -61,7 +60,7 @@
           to exotic blooms, we offer a wide variety of fresh.</p>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-4 text-center mt-10 gap-6">
-        <div class="space-y-1 p-4">
+        <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
@@ -70,7 +69,7 @@
         </button>
     </div>
 
-        <div class="space-y-1 p-4">
+        <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
@@ -79,7 +78,7 @@
         </button>
     </div>
 
-     <div class="space-y-1 p-4">
+     <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
@@ -88,7 +87,7 @@
         </button>
     </div>
 
-      <div class="space-y-1 p-4">
+      <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
@@ -97,7 +96,7 @@
         </button>
     </div>
 
-       <div class="space-y-1 p-4">
+       <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
@@ -106,7 +105,7 @@
         </button>
     </div>
 
-     <div class="space-y-1 p-4">
+     <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
@@ -115,7 +114,7 @@
         </button>
     </div>
 
-     <div class="space-y-1 p-4">
+     <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
@@ -124,23 +123,30 @@
         </button>
     </div>
 
-     <div class="space-y-1 p-4">
+     <div class="space-y-1">
         <img src="assets/sample-flower-image.png" alt="" class="mx-auto">
         <h4 class="text-lg font-semibold">Lily Blossom</h4>
         <h3 class="font-bold text-xl">20 USD</h3>
         <button class="bg-orange-500 text-white px-16 py-2 w-full hover:bg-orange-600 transition">
          ADD TO CART
         </button>
+    </div>
+
+  </div>
+      
   </section>
-    <section>
-<div class="flex items-center justify-around mt-20 ">
+
+  <section>
+<div class="flex flex-col md:flex-row items-center gap-2 md:gap-80 mt-10 md:mt-40">
   <div class="relative w-[350px] h-auto">
-    <img src="assets/flower-store.png" alt="Flower Shop" class="w-full">
-    <img src="assets/trusted-badge.png" alt="Badge" class="w-[140px] absolute -top-14 -right-14">
+    <img src="assets/flower-store.png" alt="Flower Shop" class="w-full ml-5">
+    <img src="assets/trusted-badge.png" alt="Badge" class="hidden md:inline-flex w-[140px] absolute -top-16 -right-16">
   </div>
 
-  <div class="max-w-xl">
-    <h1 class="text-3xl font-bold text-gray-800 mb-4">Flower & Plants<br> Lover</h1>
+  <div class="max-w-xl mt-10 md:mt-0">
+    <h1 class="text-3xl font-bold text-gray-800 mb-4">
+      Flower & Plants<br> Lover
+    </h1>
     <ul class="list-disc list-inside space-y-4 text-gray-500">
       <li>
         Indulge your senses with the beauty and<br> fragrance of our fresh flower shop. From classic<br> roses to exotic blooms, we offer a wide variety of fresh.
@@ -155,6 +161,7 @@
   </div>
 </div>
 
+
   </section>
 
   <section>
@@ -165,9 +172,7 @@
           fragrance of our fresh flower shop. From<br>classic roses 
           to exotic blooms, we offer a wide variety of fresh.</p>
       </div>
-
-  
-  <div class="flex mt-20 gap-6">
+<div class="flex flex-col md:flex-row mt-20 gap-6">
   <div class="grid grid-cols-1 space-y-4">
     
     <div class="relative">
@@ -211,11 +216,62 @@
     </div>
   </div>
 </div>
-  
-</section>
+ </section>
+
   </main>
 
-  <footer>
+     <section>
+         <div class="relative bg-cover bg-center h-[350px] mt-12" style="background-image: url('image/news-letter-bg.png');">
+         <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-white text-center px-4">
+      <h1 class="text-3xl md:text-4xl font-bold mb-4">Join the colorful Bunch</h1>
+      
+      <div class="w-full max-w-xl flex mt-2">
+        <input type="email" placeholder="Write email" class="w-full px-4 py-2 focus:outline-none text-black">
+        <button class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 ">Subscribe</button>
+      </div>
+    </div>
+  </div>
+    </section>
+
+  <footer class="max-w-[500px] md:max-w-[1150px] mx-auto px-4 py-10">
+    <div class="flex flex-col md:flex-row justify-between gap-10 text-start md:text-left">
+
+       
+      <div class="md:w-1/3 flex flex-col items-start md:items-left">
+        <div class="flex space-x-2 mb-2 ">
+          <img src="assets/logo.png" alt="Logo" class="w-10 h-10">  
+          <span class="text-2xl font-semibold text-orange-500">faugei</span>
+        </div>
+        <p class="text-gray-600 max-w-xs">
+          Indulge your senses with the beauty and fragrance of our fresh flower shop.
+        </p>
+      </div>
+
+      
+<div class="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4 text-gray-500 text-sm">
+  <div class="space-y-2">
+    <a href="#" class="block">Home</a>
+    <a href="#" class="block">About Us</a>
+    <a href="#" class="block">Blog</a>
+    <a href="#" class="block">FAQ</a>
+    <a href="#" class="block">Contact Us</a>
+  </div>
+  <div class="space-y-2">
+    <a href="#" class="block">Features</a>
+    <a href="#" class="block">Pricing</a>
+    <a href="#" class="block">Privacy Policy</a>
+    <a href="#" class="block">Terms of Service</a>
+    <a href="#" class="block">Help Center</a>
+  </div>
+</div>
+ 
+      <div class="flex justify-start md:justify-center gap-4 mt-6 md:mt-0">
+        <a href="#"><img src="assets/icon-linkedin.png" alt="LinkedIn" class="w-6 h-6"></a>
+        <a href="#"><img src="assets/icon-twitter.png" alt="Close" class="w-6 h-6"></a>
+        <a href="#"><img src="assets/icon-facebook.png" alt="Facebook" class="w-6 h-6"></a>
+        <a href="#"><img src="assets/icon-youtube.png" alt="YouTube" class="w-6 h-6"></a>
+      </div>
+    </div>
     
   </footer>
 
